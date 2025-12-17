@@ -1,0 +1,67 @@
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+
+}
+}
+  
+  .titulo-carta {
+    font-family: "Audiowide", sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+
+.btn-animado {
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 2px 8px rgba(237, 51, 129, 0.15);
+}
+
+.btn-animado:hover, .btn-animado:focus {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(237, 51, 129, 0.35);
+  background: linear-gradient(to right, #ed3381ff, #6a11cb);
+  color: #fff;
+  border: none;
+}
+
+.btn-animado:active {
+  transform: scale(0.97);
+  box-shadow: 0 1px 4px rgba(237, 51, 129, 0.25);
+  background: linear-gradient(to right, #6a11cb, #ed3381ff);
+}
+
+.derecha {
+  text-align: right;
+  color: rgb(0, 0, 0);
+}
+
+.derecha {
+  font-family: 'Great Vibes', cursive;
+  font-size: 26px;
+  line-height: 1.8;
+}
+
+.linea-uno {
+  font-family: "cursive", sans-serif;
+  font-size: 21px;
+  text-align: justify;
+  font-style: italic
+}
